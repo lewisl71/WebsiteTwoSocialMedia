@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    background: #55d6aa;
+    background: #a516b8;
 }
 
 header:after{
@@ -45,7 +45,7 @@ nav li{
 }
 
 nav a{
-    color: #444;
+    color: #2e2c2c;
     text-decoration:none;
     text-transform: uppercase;
     font-size: 14px;
@@ -71,10 +71,12 @@ nav a:hover::before{
     width:100%;
 }
 
-
+.social{
+    padding-bottom:20px;
+}
 
 h2{
-     background-color: #74b39e;
+     background-color: #ad86b3;
      margin-left: 375px;
      margin-right: 370px;
      color: #363636;
@@ -83,16 +85,25 @@ h2{
      text-transform: capitalize;
      border-style:groove;
      border-width: 5px;
-     border-color:rgb(102, 128, 128)
+     border-color:rgb(137, 182, 182);
+     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+     border-radius: .2em;
+     border: 1px solid #cccccc;
+     font-weight: 400;
 }
 
 p{
-    background: #74b39e;
+    background: #ad86b3;
     color: black;
     margin-left: 100px;
     margin-right: 100px;
-    border-style: groove;
-    border-color: rgb(102, 128, 128);
     color:#242323;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    border-style:groove;
+    border-width: 5px;
+    border-color:rgb(137, 182, 182);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+    border-radius: .2em;
+    border: 1px solid #cccccc;
+    font-weight: 400;
 }
